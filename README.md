@@ -35,18 +35,6 @@ If you encounter permission issues, you might need to make the script executable
 ```chmod +x setup.sh```
 The setup script will create the necessary directories for each tool:
 
-PDF_Merger
-Merged_pdf
-input_img2pdf
-img2pdf_output
-PDF_ENCRYPT
-ENCRYPTED_PDF
-input_pdf_to_img
-output_pdf_to_img
-input_split
-output_split
-input_custom_pages
-output_custom_pages
 
 Additionally, it will install any dependencies required for the tools.
 
@@ -61,9 +49,14 @@ Follow the on-screen instructions to use the tools.
 Ensure you have Python installed on your machine.
 
 For encryption, you might need to install PyPDF2. You can install it using:
- ```pip install PyPDF2```
+ ```
+pip install PyPDF2
+ ```
+ 
 For image to PDF conversion, the script uses the img2pdf library. Install it using:
+
  ```pip install img2pdf```
+ 
 Feel free to explore and contribute to the project. If you encounter any issues, please report them in the Issues section.
  
 
