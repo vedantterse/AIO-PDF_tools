@@ -1,20 +1,20 @@
 # AIO-PDF_tools
-PDF Tools
+# PDF Tools
 Overview
 PDF Tools is a command-line utility that provides a set of tools for working with PDF files. The tools included in this utility allow users to perform various actions such as merging PDFs, converting images to PDF, encrypting PDFs, converting PDFs to images, splitting PDFs, and extracting specific pages from a PDF.
 
-Features
-PDF Merger: Merge multiple PDF files into a single PDF.
-Image to PDF Converter: Convert a collection of images to a PDF document.
-PDF Encryption: Encrypt PDF files with a password for added security.
-PDF to Image Converter: Convert PDF pages to image files.
-PDF Splitter: Split a PDF into multiple parts.
-Custom Page Extraction: Extract specific pages from a PDF document.
-How to Use
+# Features
+**PDF Merger: Merge multiple PDF files into a single PDF.**
+**Image to PDF Converter: Convert a collection of images to a PDF document.**
+**PDF Encryption: Encrypt PDF files with a password for added security.**
+**PDF to Image Converter: Convert PDF pages to image files.**
+**PDF Splitter: Split a PDF into multiple parts.**
+**Custom Page Extraction: Extract specific pages from a PDF document.**
+## How to Use
 Directory Setup:
 
 Place your PDF files in the designated input directories as mentioned below:
-PDF_Merger: For PDF merger tool.
+_PDF_Merger: For PDF merger tool._
 input_img2pdf: For image to PDF converter.
 PDF_ENCRYPT: For PDF encryption tool.
 input_pdf_to_img: For PDF to image converter.
