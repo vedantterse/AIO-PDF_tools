@@ -25,14 +25,25 @@ To set up the project locally, follow these steps:
 
 1. **Clone the Repository:**
     
-   ```git clone https://github.com/your-username/PDF_Tools.git```
-   ```cd PDF_Tools```
+   ```
+   git clone https://github.com/your-username/PDF_Tools.git
+   ```
+   
+   ```
+   cd PDF_Tools
+   ```
+   
 Run the Setup Script:
-```bash setup.sh```
+```
+bash setup.sh
+```
 
 If you encounter permission issues, you might need to make the script executable:
 
-```chmod +x setup.sh```
+```
+chmod +x setup.sh
+```
+
 The setup script will create the necessary directories for each tool:
 
 
@@ -42,7 +53,12 @@ Run the PDF Tools:
 
 python pdf_tools.py
 Follow the on-screen instructions to use the tools.
+
 ![image](https://github.com/vedantterse/AIO-PDF_tools/assets/69134828/86bc9c07-9f9f-47f1-a830-0a4171e036b7)
+
+
+
+
 
 
 ### Notes
@@ -55,11 +71,12 @@ pip install PyPDF2
  
 For image to PDF conversion, the script uses the img2pdf library. Install it using:
 
- ```pip install img2pdf```
+ ```
+ pip install img2pdf
+```
  
 Feel free to explore and contribute to the project. If you encounter any issues, please report them in the Issues section.
  
-
 
 
 **Directory Setup:**
