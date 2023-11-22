@@ -32,7 +32,7 @@ To set up the project locally, follow these steps:
    ```
    cd PDF_Tools
    ```
-------refer to 'Note:-' down below and then exceute this commands of setup script if that dosent work-------
+------refer to 'Instructions:' down below and then exceute this commands of setup script if that dosent work-------
    
 Run the Setup Script:
 ```
@@ -62,7 +62,8 @@ Follow the on-screen instructions to use the tools.
 
 
 
-### Note:-
+### 
+Instructions:-
 Make sure Python is installed on your computer.
 Open the terminal in the directory where you've cloned the repository.
 Execute the following commands one by one in the terminal:
@@ -86,19 +87,24 @@ Feel free to explore and contribute to the project. If you encounter any issues,
 **Directory Setup:**
 Place your PDF files in the designated input directories as mentioned below:
 _PDF_Merger: For PDF merger tool._
+
 input_img2pdf: For image to PDF converter.
+
 PDF_ENCRYPT: For PDF encryption tool.
+
 input_pdf_to_img: For PDF to image converter.
+
 input_split: For PDF splitter tool.
+
 input_custom_pages: For custom page extraction tool.
+
 Run the Script:
 
 Execute the script and follow the on-screen instructions.
 Choose the desired action by entering the corresponding number.
-Check Outputs:
+Check the Output.!
 
- 
- 
+  
 Notes
 Ensure that the required input directories are created before running the script.
 Follow on-screen instructions for each tool to complete the desired action.
