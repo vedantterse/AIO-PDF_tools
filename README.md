@@ -32,6 +32,7 @@ To set up the project locally, follow these steps:
    ```
    cd PDF_Tools
    ```
+------refer to 'Note:-' down below and then exceute this commands of setup script if that dosent work-------
    
 Run the Setup Script:
 ```
@@ -61,18 +62,21 @@ Follow the on-screen instructions to use the tools.
 
 
 
-### Notes
-Ensure you have Python installed on your machine.
-
-For encryption, you might need to install PyPDF2. You can install it using:
- ```
-pip install PyPDF2
- ```
+### Note:-
+Make sure Python is installed on your computer.
+Open the terminal in the directory where you've cloned the repository.
+Execute the following commands one by one in the terminal:
  
-For image to PDF conversion, the script uses the img2pdf library. Install it using:
+ ```
+python -m pip install PyPDF2
+ ```
 
  ```
- pip install img2pdf
+ python -m pip install PyMuPDF
+```
+ 
+ ```
+python -m pip install img2pdf
 ```
  
 Feel free to explore and contribute to the project. If you encounter any issues, please report them in the Issues section.
