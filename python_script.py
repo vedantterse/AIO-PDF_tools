@@ -1,5 +1,5 @@
 import os
-
+import PyPDF2
 print('\033[32mENTER the number according to the options!!\033[0m')
 print('\033[33mthe INPUT directory of the tools is mentioned  place your files accordingly\033[0m ')
 print('''\033[34mENTER:\033[0m
