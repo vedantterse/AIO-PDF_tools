@@ -32,6 +32,7 @@ To set up the project locally, follow these steps:
    ```
    cd PDF_Tools
    ```
+------refer to 'Instructions:' down below and then exceute this commands of setup script if that dosent work-------
    
 Run the Setup Script:
 ```
@@ -61,18 +62,22 @@ Follow the on-screen instructions to use the tools.
 
 
 
-### Notes
-Ensure you have Python installed on your machine.
-
-For encryption, you might need to install PyPDF2. You can install it using:
- ```
-pip install PyPDF2
- ```
+### 
+Instructions:-
+Make sure Python is installed on your computer.
+Open the terminal in the directory where you've cloned the repository.
+Execute the following commands one by one in the terminal:
  
-For image to PDF conversion, the script uses the img2pdf library. Install it using:
+ ```
+python -m pip install PyPDF2
+ ```
 
  ```
- pip install img2pdf
+ python -m pip install PyMuPDF
+```
+ 
+ ```
+python -m pip install img2pdf
 ```
  
 Feel free to explore and contribute to the project. If you encounter any issues, please report them in the Issues section.
@@ -82,19 +87,24 @@ Feel free to explore and contribute to the project. If you encounter any issues,
 **Directory Setup:**
 Place your PDF files in the designated input directories as mentioned below:
 _PDF_Merger: For PDF merger tool._
+
 input_img2pdf: For image to PDF converter.
+
 PDF_ENCRYPT: For PDF encryption tool.
+
 input_pdf_to_img: For PDF to image converter.
+
 input_split: For PDF splitter tool.
+
 input_custom_pages: For custom page extraction tool.
+
 Run the Script:
 
 Execute the script and follow the on-screen instructions.
 Choose the desired action by entering the corresponding number.
-Check Outputs:
+Check the Output.!
 
- 
- 
+  
 Notes
 Ensure that the required input directories are created before running the script.
 Follow on-screen instructions for each tool to complete the desired action.
