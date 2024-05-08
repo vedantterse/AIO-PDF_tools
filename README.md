@@ -36,12 +36,11 @@ To set up the project locally, follow these steps:
 
 The setup script will create the necessary directories for each tool:
 
-
 Additionally, it will install any dependencies required for the tools.
 
-Run the PDF Tools:
-
-python pdf_tools.py
+### Now run the run.bat file !
+OR
+### python pdf_tools.py in an code editor 
 Follow the on-screen instructions to use the tools.
 
 ![image](https://github.com/vedantterse/AIO-PDF_tools/assets/69134828/86bc9c07-9f9f-47f1-a830-0a4171e036b7)
