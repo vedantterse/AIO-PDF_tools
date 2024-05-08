@@ -23,7 +23,7 @@ PDF Tools is a command-line utility that provides a set of tools for working wit
 
 To set up the project locally, follow these steps:
 
-1. **Clone the Repository:**
+## 1. **Clone the Repository:**
     
    ```
    git clone https://github.com/your-username/PDF_Tools.git
@@ -32,18 +32,7 @@ To set up the project locally, follow these steps:
    ```
    cd PDF_Tools
    ```
-------refer to 'Instructions:' down below and then exceute this commands of setup script if that dosent work-------
-   
-Run the Setup Script:
-```
-bash setup.sh
-```
-
-If you encounter permission issues, you might need to make the script executable:
-
-```
-chmod +x setup.sh
-```
+## 2.**Run the setup1.bat**
 
 The setup script will create the necessary directories for each tool:
 
@@ -62,7 +51,7 @@ Follow the on-screen instructions to use the tools.
 
 
 
-### 
+### only follow these steps if the setup1.bat file is not working in your system
 Instructions:-
 Make sure Python is installed on your computer.
 Open the terminal in the directory where you've cloned the repository.
