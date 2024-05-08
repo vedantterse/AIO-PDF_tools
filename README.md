@@ -51,7 +51,7 @@ Follow the on-screen instructions to use the tools.
 
 
 
-### only follow these steps if the setup1.bat file is not working in your system
+### -----Only follow these steps if the setup1.bat file is not working in your system ------
 Instructions:-
 Make sure Python is installed on your computer.
 Open the terminal in the directory where you've cloned the repository.
@@ -69,23 +69,24 @@ python -m pip install PyPDF2
 python -m pip install img2pdf
 ```
  
-Feel free to explore and contribute to the project. If you encounter any issues, please report them in the Issues section.
+### Feel free to explore and contribute to the project. If you encounter any issues, please report them in the [Issues](https://github.com/vedantterse/AIO-PDF_tools/issues) section.
  
 
 
-**Directory Setup:**
+### **Directory Setup:**
 Place your PDF files in the designated input directories as mentioned below:
-_PDF_Merger: For PDF merger tool._
 
-input_img2pdf: For image to PDF converter.
+#### _PDF_Merger: For PDF merger tool._
 
-PDF_ENCRYPT: For PDF encryption tool.
+#### input_img2pdf: For image to PDF converter.
 
-input_pdf_to_img: For PDF to image converter.
+#### PDF_ENCRYPT: For PDF encryption tool.
 
-input_split: For PDF splitter tool.
+#### input_pdf_to_img: For PDF to image converter.
 
-input_custom_pages: For custom page extraction tool.
+#### input_split: For PDF splitter tool.
+
+#### input_custom_pages: For custom page extraction tool.
 
 Run the Script:
 
