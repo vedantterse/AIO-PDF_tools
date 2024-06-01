@@ -53,10 +53,10 @@ The setup script will create the necessary directories for each tool:
 
 Additionally, it will install any dependencies required for the tools.
 
-### Now run the Gui.bat file!
+### Now run the [Run_GUI_v2.5.0.bat]()  file!
 OR
-### python .py in a code editor 
-
+### python [gui.py]() in a code editor 
+-------------------------------------------------------------
 ![image](https://github.com/vedantterse/AIO-PDF_tools/assets/69134828/d9db689d-75b9-48eb-aed6-82bdd6883ac5)
 
 ## Used [Tkinter Designer](https://github.com/ParthJadhav/Tkinter-Designer) For creating the GUI , [Tutorail 1](https://youtu.be/Qd-jJjduWeQ?si=RaJTiF42pUxeI6yC) , [Tutorial 2](https://youtu.be/oLxFqpUbaAE?si=1u-FIYFBbHv2tuc-) On How to Use this tool , 
