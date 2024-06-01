@@ -225,13 +225,14 @@ def split_pdf_specific_pages():
     messagebox.showinfo("Success", f"Split PDF saved successfully at {save_path}")
 
 
-OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"D:\Tkinter-Designer\build\assets\frame0")
+WORKING_DIR = Path.cwd()
 
+# Define the path to the assets directory relative to the working directory
+ASSETS_PATH = WORKING_DIR / "assets" / "frame0"
 
+# Function to get the path relative to the assets directory
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
-
 
 window = Tk()
 
